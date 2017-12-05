@@ -1,4 +1,4 @@
-package me.events.main;
+package me.teleport.main;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -8,29 +8,24 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
+
+
 public class main extends JavaPlugin{
 	
 	@Override
 	public void onEnable(){
-		Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"Test"); 
+		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.GREEN + "Block" + ChatColor.GREEN + " aktiviert");
 		Bukkit.getPluginManager().registerEvents(new PlayerJoinQuitEvent(this),this);
-		System.out.println("Das Plugin wurde aktiviert");
 	}
 	@Override
 	public void onDisable(){
-		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN+"Test");
-		System.out.println("Das Plugin wurde deaktiviert");
+		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.RED + "Block" + ChatColor.RED + " deaktiviert");
 	}
+	
 	
 	@Override
 	public boolean onCommand(CommandSender sender,Command cmd,String label,String[] args) {
-		
-		if(label.equalsIgnoreCase("test")) {
-			sender.sendMessage("Test");
-			return true;
-		}
-	
-		
+				
 		if(sender instanceof Player) {
 			Player player = (Player)sender;
 			if(label.equalsIgnoreCase("teleport")){

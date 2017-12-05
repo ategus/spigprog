@@ -1,5 +1,5 @@
-main: me.events.main.main
-name: mc_event
+main: me.base.main.main
+name: base
 version: 1.0
 author: rox
 

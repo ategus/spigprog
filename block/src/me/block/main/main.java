@@ -28,7 +28,7 @@ public class main extends JavaPlugin{
 				
 				@Override
 				public void run() {
-					sender.sendMessage("Diese Nachricht kommt nach 5s");
+					sender.sendMessage("Anthony kommt nach 5s");
 				}
 			}, 5*20L);
 		}

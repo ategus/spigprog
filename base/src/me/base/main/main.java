@@ -11,13 +11,13 @@ public class main extends JavaPlugin{
 	
 	@Override
 	public void onEnable(){
-		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN+"Test"); 
-		System.out.println("Plugin Base wurde aktiviert");
+		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.GREEN + "Base" + ChatColor.GREEN + " aktiviert");
+		//System.out.println("Plugin Base aktiviert");
 	}
 	@Override
 	public void onDisable(){
-		Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"Test");
-		System.out.println("Plugin Base wurde deaktiviert");
+		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.RED + "Base" + ChatColor.RED + " deaktiviert");
+		//System.out.println("Plugin Base deaktiviert");
 	}
 	
 	@Override

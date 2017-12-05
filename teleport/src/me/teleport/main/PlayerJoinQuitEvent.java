@@ -1,4 +1,4 @@
-package me.events.main;
+package me.teleport.main;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
