@@ -1,0 +1,12 @@
+main: me.events.main.main
+name: mc_event
+version: 1.0
+author: rox
+
+commands:
+  test:
+    description: for test purposes
+    usage: /<command>
+  teleport:
+    description: teleport player
+    usage: /<command> [Player]
