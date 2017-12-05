@@ -1,0 +1,9 @@
+main: me.block.main.main
+name: block
+version: 1.0
+author: rox
+
+commands:
+  test:
+    description: for test purposes
+    usage: /<command>
