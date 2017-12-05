@@ -23,7 +23,7 @@ public class main extends JavaPlugin{
 	@Override
 	public boolean onCommand(final CommandSender sender,Command cmd,String label,String[] args) {
 		
-		if (label.equalsIgnoreCase("test")) {
+		if (label.equalsIgnoreCase("wait")) {
 			Bukkit.getScheduler().runTaskLater(this, new Runnable(){
 				
 				@Override

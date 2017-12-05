@@ -4,6 +4,6 @@ version: 1.0
 author: rox
 
 commands:
-  test:
+  wait:
     description: for test purposes
     usage: /<command>

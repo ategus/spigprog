@@ -14,12 +14,12 @@ public class main extends JavaPlugin{
 	
 	@Override
 	public void onEnable(){
-		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.GREEN + "Block" + ChatColor.GREEN + " aktiviert");
+		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.GREEN + "Teleport" + ChatColor.GREEN + " aktiviert");
 		Bukkit.getPluginManager().registerEvents(new PlayerJoinQuitEvent(this),this);
 	}
 	@Override
 	public void onDisable(){
-		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.RED + "Block" + ChatColor.RED + " deaktiviert");
+		Bukkit.getConsoleSender().sendMessage("Plugin " + ChatColor.RED + "Teleport" + ChatColor.RED + " deaktiviert");
 	}
 	
 	

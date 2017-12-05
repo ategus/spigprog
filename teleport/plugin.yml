@@ -1,5 +1,5 @@
-main: me.events.main.main
-name: sp_teleport
+main: me.teleport.main.main
+name: teleport
 version: 1.0
 author: rox
 
