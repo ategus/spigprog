@@ -26,6 +26,7 @@ public class Events implements Listener {
 		final Block block  = event.getBlock();
 		final Material material = block.getType();
 		
+		
 
 		Bukkit.getScheduler().runTaskLater(plugin, new Runnable(){
 				
@@ -34,6 +35,5 @@ public class Events implements Listener {
 				block.setType(material);
 			}
 		}, 3*20L);
-
 	}
 }
