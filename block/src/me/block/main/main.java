@@ -23,6 +23,7 @@ public class main extends JavaPlugin{
 	@Override
 	public boolean onCommand(final CommandSender sender,Command cmd,String label,String[] args) {
 		
+		/*
 		if (label.equalsIgnoreCase("wait")) {
 			Bukkit.getScheduler().runTaskLater(this, new Runnable(){
 				
@@ -31,7 +32,13 @@ public class main extends JavaPlugin{
 					sender.sendMessage("Anthony kommt nach 5s");
 				}
 			}, 5*20L);
+		}*/
+		
+		if(label.equalsIgnoreCase("wait")) {
+			CountDown.CountDown();
 		}
+		
+		
 		return false;	
 	}
 	
