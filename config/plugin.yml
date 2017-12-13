@@ -1,0 +1,12 @@
+main: me.base.main.main
+name: base
+version: 1.0
+author: rox
+
+commands:
+  test:
+    description: for test purposes
+    usage: /<command>
+  teleport:
+    description: teleport player
+    usage: /<command> [Player]
