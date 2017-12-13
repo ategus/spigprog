@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.server.v1_12_R1.Material"/>
+<fullyQualifiedTypeName name="org.bukkit.Material"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+<fullyQualifiedTypeName name="me.block.main.Countdown"/>
+</qualifiedTypeNameHistroy>
