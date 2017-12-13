@@ -1,5 +1,5 @@
-main: me.base.main.main
-name: base
+main: me.conf.main.main
+name: conf
 version: 1.0
 author: rox
 
